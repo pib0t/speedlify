@@ -5,6 +5,9 @@ module.exports = {
 		frequency: 60 * 23, // (in minutes), 23 hours
 	},
 	urls: [
+		"https://www.strato.de/",
+		"https://www.strato.nl/",
+		"https://www.strato.es/",
 		"https://www.strato.se/"
 	]
 };

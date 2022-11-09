@@ -38,6 +38,7 @@ jobs:
           SITE_URL: ${{ steps.project.outputs.site-url }}
         run: |
           npm install
+          npm run test-pages
           npm run build
 
       - name: Deploy to IONOS
